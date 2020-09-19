@@ -1,0 +1,269 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="TestSuite" time="190.009" tests="9" errors="0" skipped="4" failures="5">
+  <properties>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk1.8.0_251\jre\bin"/>
+    <property name="java.vm.version" value="25.251-b08"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="maven.multiModuleProjectDirectory" value="E:\Telkom\Training\QA Automation Jakarta Labs 092020\Training QA JakartaLabs Level 2\Level 2 Resources\Level 2 Resources\batch3latest"/>
+    <property name="java.vendor.url" value="http://java.oracle.com/"/>
+    <property name="path.separator" value=";"/>
+    <property name="guice.disable.misplaced.annotation.check" value="true"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="file.encoding.pkg" value="sun.io"/>
+    <property name="user.script" value=""/>
+    <property name="user.country" value="US"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="sun.os.patch.level" value=""/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="user.dir" value="E:\Telkom\Training\QA Automation Jakarta Labs 092020\Training QA JakartaLabs Level 2\Level 2 Resources\Level 2 Resources\batch3latest"/>
+    <property name="java.runtime.version" value="1.8.0_251-b08"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
+    <property name="java.endorsed.dirs" value="C:\Program Files\Java\jdk1.8.0_251\jre\lib\endorsed"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.io.tmpdir" value="C:\Users\ronaldo\AppData\Local\Temp\"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="user.variant" value=""/>
+    <property name="os.name" value="Windows 10"/>
+    <property name="suiteXmlFile" value="webtests.xml"/>
+    <property name="classworlds.conf" value="C:\Users\ronaldo\eclipse-workspace\.metadata\.plugins\org.eclipse.m2e.launching\launches\m2conf7435455602119254074.tmp"/>
+    <property name="sun.jnu.encoding" value="Cp1252"/>
+    <property name="java.library.path" value="C:\Program Files\Java\jdk1.8.0_251\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:/Program Files/Java/jre1.8.0_251/bin/server;C:/Program Files/Java/jre1.8.0_251/bin;C:/Program Files/Java/jre1.8.0_251/lib/amd64;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\Program Files\nodejs\;C:\Program Files\Git\cmd;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\PuTTY\;C:\Program Files\Docker\Docker\resources\bin;C:\ProgramData\DockerDesktop\version-bin;C:\ProgramData\chocolatey\bin;;C:\Program Files\Dart\dart-sdk\bin;C:\Users\ronaldo\AppData\Local\Microsoft\WindowsApps;C:\Users\ronaldo\AppData\Roaming\npm;C:\Program Files\JetBrains\IntelliJ IDEA 2020.1.2\bin;;C:\Users\ronaldo\AppData\Local\Programs\Microsoft VS Code\bin;D:\apache-jmeter-5.3\bin;C:\Program Files\heroku\bin;C:\Program Files (x86)\Nmap;E:\Telkom\Training\QA Automation Jakarta Labs 092020\eclipse;;."/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="java.class.version" value="52.0"/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="os.version" value="10.0"/>
+    <property name="user.home" value="C:\Users\ronaldo"/>
+    <property name="user.timezone" value="Asia/Bangkok"/>
+    <property name="java.awt.printerjob" value="sun.awt.windows.WPrinterJob"/>
+    <property name="java.specification.version" value="1.8"/>
+    <property name="file.encoding" value="Cp1252"/>
+    <property name="user.name" value="ronaldo"/>
+    <property name="java.class.path" value="E:\Telkom\Training\QA Automation Jakarta Labs 092020\eclipse\plugins\org.eclipse.m2e.maven.runtime_1.10.0.20181127-2120\jars\plexus-classworlds-2.5.2.jar"/>
+    <property name="org.slf4j.simpleLogger.defaultLogLevel" value="debug"/>
+    <property name="java.vm.specification.version" value="1.8"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="java.home" value="C:\Program Files\Java\jdk1.8.0_251\jre"/>
+    <property name="sun.java.command" value="org.codehaus.plexus.classworlds.launcher.Launcher -B clean install -X -DsuiteXmlFile=webtests.xml -Denvironment=prod"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="user.language" value="en"/>
+    <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="java.version" value="1.8.0_251"/>
+    <property name="java.ext.dirs" value="C:\Program Files\Java\jdk1.8.0_251\jre\lib\ext;C:\WINDOWS\Sun\Java\lib\ext"/>
+    <property name="sun.boot.class.path" value="C:\Program Files\Java\jdk1.8.0_251\jre\lib\resources.jar;C:\Program Files\Java\jdk1.8.0_251\jre\lib\rt.jar;C:\Program Files\Java\jdk1.8.0_251\jre\lib\sunrsasign.jar;C:\Program Files\Java\jdk1.8.0_251\jre\lib\jsse.jar;C:\Program Files\Java\jdk1.8.0_251\jre\lib\jce.jar;C:\Program Files\Java\jdk1.8.0_251\jre\lib\charsets.jar;C:\Program Files\Java\jdk1.8.0_251\jre\lib\jfr.jar;C:\Program Files\Java\jdk1.8.0_251\jre\classes"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="environment" value="prod"/>
+    <property name="maven.home" value="E:\Telkom\Training\QA Automation Jakarta Labs 092020\Training QA JakartaLabs Level 2\Level 2 Resources\Level 2 Resources\batch3latest\EMBEDDED"/>
+    <property name="file.separator" value="\"/>
+    <property name="java.vendor.url.bug" value="http://bugreport.sun.com/bugreport/"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="sun.desktop" value="windows"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+  </properties>
+  <testcase name="setUpAndInitialize" classname="com.fullstack.batch3.AppTest" time="51.503">
+    <failure message="Could not start a new session. Possible causes are invalid address of the remote server or browser start-up failure.&#10;Build info: version: &apos;4.0.0-alpha-6&apos;, revision: &apos;5f43a29cfc&apos;&#10;System info: host: &apos;DESKTOP-3HP5LFB&apos;, ip: &apos;172.17.16.1&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_251&apos;&#10;Driver info: driver.version: RemoteWebDriver" type="org.openqa.selenium.remote.UnreachableBrowserException">org.openqa.selenium.remote.UnreachableBrowserException: 
+Could not start a new session. Possible causes are invalid address of the remote server or browser start-up failure.
+Build info: version: '4.0.0-alpha-6', revision: '5f43a29cfc'
+System info: host: 'DESKTOP-3HP5LFB', ip: '172.17.16.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_251'
+Driver info: driver.version: RemoteWebDriver
+Caused by: java.lang.RuntimeException: NettyHttpHandler request execution error
+Caused by: java.util.concurrent.ExecutionException: java.util.concurrent.TimeoutException: Request timeout to 54.179.170.44/54.179.170.44:4444 after 60000 ms
+Caused by: java.util.concurrent.TimeoutException: Request timeout to 54.179.170.44/54.179.170.44:4444 after 60000 ms
+</failure>
+    <system-out><![CDATA[2020-09-19 18:34:45,085 TestNG-test=Web Tests-1 ERROR Unable to locate appender "logfile" for logger config "root"
+2020-09-19 18:34:45,131 [DEBUG ] InternalLoggerFactory - Using Log4J2 as the default logging framework
+2020-09-19 18:34:45,135 [DEBUG ] ResourceLeakDetector - -Dio.netty.leakDetection.level: simple
+2020-09-19 18:34:45,135 [DEBUG ] ResourceLeakDetector - -Dio.netty.leakDetection.targetRecords: 4
+2020-09-19 18:34:45,138 [DEBUG ] ResourceLeakDetectorFactory - Loaded default ResourceLeakDetector: io.netty.util.ResourceLeakDetector@63273fdd
+2020-09-19 18:34:45,151 [DEBUG ] PlatformDependent - Platform: Windows
+2020-09-19 18:34:45,153 [DEBUG ] PlatformDependent0 - -Dio.netty.noUnsafe: false
+2020-09-19 18:34:45,154 [DEBUG ] PlatformDependent0 - Java version: 8
+2020-09-19 18:34:45,154 [DEBUG ] PlatformDependent0 - sun.misc.Unsafe.theUnsafe: available
+2020-09-19 18:34:45,155 [DEBUG ] PlatformDependent0 - sun.misc.Unsafe.copyMemory: available
+2020-09-19 18:34:45,155 [DEBUG ] PlatformDependent0 - java.nio.Buffer.address: available
+2020-09-19 18:34:45,156 [DEBUG ] PlatformDependent0 - direct buffer constructor: available
+2020-09-19 18:34:45,160 [DEBUG ] PlatformDependent0 - java.nio.Bits.unaligned: available, true
+2020-09-19 18:34:45,161 [DEBUG ] PlatformDependent0 - jdk.internal.misc.Unsafe.allocateUninitializedArray(int): unavailable prior to Java9
+2020-09-19 18:34:45,161 [DEBUG ] PlatformDependent0 - java.nio.DirectByteBuffer.<init>(long, int): available
+2020-09-19 18:34:45,161 [DEBUG ] PlatformDependent - sun.misc.Unsafe: available
+2020-09-19 18:34:45,161 [DEBUG ] PlatformDependent - -Dio.netty.tmpdir: C:\Users\ronaldo\AppData\Local\Temp (java.io.tmpdir)
+2020-09-19 18:34:45,161 [DEBUG ] PlatformDependent - -Dio.netty.bitMode: 64 (sun.arch.data.model)
+2020-09-19 18:34:45,162 [DEBUG ] PlatformDependent - -Dio.netty.maxDirectMemory: 3790077952 bytes
+2020-09-19 18:34:45,162 [DEBUG ] PlatformDependent - -Dio.netty.uninitializedArrayAllocationThreshold: -1
+2020-09-19 18:34:45,163 [DEBUG ] CleanerJava6 - java.nio.ByteBuffer.cleaner(): available
+2020-09-19 18:34:45,163 [DEBUG ] PlatformDependent - -Dio.netty.noPreferDirect: false
+2020-09-19 18:34:45,169 [DEBUG ] PlatformDependent - org.jctools-core.MpscChunkedArrayQueue: available
+2020-09-19 18:34:45,234 [DEBUG ] JdkSslContext - Default protocols (JDK): [TLSv1.2, TLSv1.1, TLSv1] 
+2020-09-19 18:34:45,234 [DEBUG ] JdkSslContext - Default cipher suites (JDK): [TLS_ECDHE_ECDSA_WITH_AES_256_GCM_SHA384, TLS_ECDHE_ECDSA_WITH_AES_128_GCM_SHA256, TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256, TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384, TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA, TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA, TLS_RSA_WITH_AES_128_GCM_SHA256, TLS_RSA_WITH_AES_128_CBC_SHA, TLS_RSA_WITH_AES_256_CBC_SHA]
+2020-09-19 18:34:45,251 [DEBUG ] InternalThreadLocalMap - -Dio.netty.threadLocalMap.stringBuilder.initialSize: 1024
+2020-09-19 18:34:45,251 [DEBUG ] InternalThreadLocalMap - -Dio.netty.threadLocalMap.stringBuilder.maxSize: 4096
+2020-09-19 18:34:45,257 [DEBUG ] MultithreadEventLoopGroup - -Dio.netty.eventLoopThreads: 24
+2020-09-19 18:34:45,269 [DEBUG ] NioEventLoop - -Dio.netty.noKeySetOptimization: false
+2020-09-19 18:34:45,270 [DEBUG ] NioEventLoop - -Dio.netty.selectorAutoRebuildThreshold: 512
+2020-09-19 18:34:49,299 [TRACE ] NioEventLoop - instrumented a special java.util.Set into: sun.nio.ch.WindowsSelectorImpl@382cd71f
+2020-09-19 18:34:49,300 [TRACE ] NioEventLoop - instrumented a special java.util.Set into: sun.nio.ch.WindowsSelectorImpl@5490deeb
+2020-09-19 18:34:49,301 [TRACE ] NioEventLoop - instrumented a special java.util.Set into: sun.nio.ch.WindowsSelectorImpl@a5a7f49
+2020-09-19 18:34:49,301 [TRACE ] NioEventLoop - instrumented a special java.util.Set into: sun.nio.ch.WindowsSelectorImpl@679dda2f
+2020-09-19 18:34:49,302 [TRACE ] NioEventLoop - instrumented a special java.util.Set into: sun.nio.ch.WindowsSelectorImpl@4cb5fc63
+2020-09-19 18:34:49,303 [TRACE ] NioEventLoop - instrumented a special java.util.Set into: sun.nio.ch.WindowsSelectorImpl@1e800498
+2020-09-19 18:34:49,303 [TRACE ] NioEventLoop - instrumented a special java.util.Set into: sun.nio.ch.WindowsSelectorImpl@47798036
+2020-09-19 18:34:49,304 [TRACE ] NioEventLoop - instrumented a special java.util.Set into: sun.nio.ch.WindowsSelectorImpl@4ebc7654
+2020-09-19 18:34:49,305 [TRACE ] NioEventLoop - instrumented a special java.util.Set into: sun.nio.ch.WindowsSelectorImpl@2d89cd04
+2020-09-19 18:34:49,305 [TRACE ] NioEventLoop - instrumented a special java.util.Set into: sun.nio.ch.WindowsSelectorImpl@33b3a8e9
+2020-09-19 18:34:49,306 [TRACE ] NioEventLoop - instrumented a special java.util.Set into: sun.nio.ch.WindowsSelectorImpl@38c0f699
+2020-09-19 18:34:49,307 [TRACE ] NioEventLoop - instrumented a special java.util.Set into: sun.nio.ch.WindowsSelectorImpl@15633903
+2020-09-19 18:34:49,307 [TRACE ] NioEventLoop - instrumented a special java.util.Set into: sun.nio.ch.WindowsSelectorImpl@76e13746
+2020-09-19 18:34:49,308 [TRACE ] NioEventLoop - instrumented a special java.util.Set into: sun.nio.ch.WindowsSelectorImpl@583b2d93
+2020-09-19 18:34:49,308 [TRACE ] NioEventLoop - instrumented a special java.util.Set into: sun.nio.ch.WindowsSelectorImpl@67f06c33
+2020-09-19 18:34:49,309 [TRACE ] NioEventLoop - instrumented a special java.util.Set into: sun.nio.ch.WindowsSelectorImpl@6b57faef
+2020-09-19 18:34:49,309 [TRACE ] NioEventLoop - instrumented a special java.util.Set into: sun.nio.ch.WindowsSelectorImpl@1473bbc4
+2020-09-19 18:34:49,310 [TRACE ] NioEventLoop - instrumented a special java.util.Set into: sun.nio.ch.WindowsSelectorImpl@15a54b6c
+2020-09-19 18:34:49,310 [TRACE ] NioEventLoop - instrumented a special java.util.Set into: sun.nio.ch.WindowsSelectorImpl@71502c1f
+2020-09-19 18:34:49,311 [TRACE ] NioEventLoop - instrumented a special java.util.Set into: sun.nio.ch.WindowsSelectorImpl@25842058
+2020-09-19 18:34:49,312 [TRACE ] NioEventLoop - instrumented a special java.util.Set into: sun.nio.ch.WindowsSelectorImpl@2c2012b7
+2020-09-19 18:34:49,312 [TRACE ] NioEventLoop - instrumented a special java.util.Set into: sun.nio.ch.WindowsSelectorImpl@13e1c274
+2020-09-19 18:34:49,313 [TRACE ] NioEventLoop - instrumented a special java.util.Set into: sun.nio.ch.WindowsSelectorImpl@632124c3
+2020-09-19 18:34:49,313 [TRACE ] NioEventLoop - instrumented a special java.util.Set into: sun.nio.ch.WindowsSelectorImpl@67a35e1f
+2020-09-19 18:34:49,331 [DEBUG ] PooledByteBufAllocator - -Dio.netty.allocator.numHeapArenas: 24
+2020-09-19 18:34:49,331 [DEBUG ] PooledByteBufAllocator - -Dio.netty.allocator.numDirectArenas: 24
+2020-09-19 18:34:49,331 [DEBUG ] PooledByteBufAllocator - -Dio.netty.allocator.pageSize: 8192
+2020-09-19 18:34:49,331 [DEBUG ] PooledByteBufAllocator - -Dio.netty.allocator.maxOrder: 11
+2020-09-19 18:34:49,331 [DEBUG ] PooledByteBufAllocator - -Dio.netty.allocator.chunkSize: 16777216
+2020-09-19 18:34:49,331 [DEBUG ] PooledByteBufAllocator - -Dio.netty.allocator.tinyCacheSize: 512
+2020-09-19 18:34:49,331 [DEBUG ] PooledByteBufAllocator - -Dio.netty.allocator.smallCacheSize: 256
+2020-09-19 18:34:49,331 [DEBUG ] PooledByteBufAllocator - -Dio.netty.allocator.normalCacheSize: 64
+2020-09-19 18:34:49,331 [DEBUG ] PooledByteBufAllocator - -Dio.netty.allocator.maxCachedBufferCapacity: 32768
+2020-09-19 18:34:49,331 [DEBUG ] PooledByteBufAllocator - -Dio.netty.allocator.cacheTrimInterval: 8192
+2020-09-19 18:34:49,331 [DEBUG ] PooledByteBufAllocator - -Dio.netty.allocator.cacheTrimIntervalMillis: 0
+2020-09-19 18:34:49,331 [DEBUG ] PooledByteBufAllocator - -Dio.netty.allocator.useCacheForAllThreads: true
+2020-09-19 18:34:49,332 [DEBUG ] PooledByteBufAllocator - -Dio.netty.allocator.maxCachedByteBuffersPerChunk: 1023
+2020-09-19 18:34:49,338 [DEBUG ] ByteBufUtil - -Dio.netty.allocator.type: pooled
+2020-09-19 18:34:49,338 [DEBUG ] ByteBufUtil - -Dio.netty.threadLocalDirectBufferSize: 0
+2020-09-19 18:34:49,338 [DEBUG ] ByteBufUtil - -Dio.netty.maxThreadLocalCharBufferSize: 16384
+2020-09-19 18:34:49,591 [DEBUG ] DefaultChannelId - -Dio.netty.processId: 14904 (auto-detected)
+2020-09-19 18:34:49,592 [DEBUG ] NetUtil - -Djava.net.preferIPv4Stack: false
+2020-09-19 18:34:49,592 [DEBUG ] NetUtil - -Djava.net.preferIPv6Addresses: false
+2020-09-19 18:34:50,193 [DEBUG ] NetUtil - Loopback interface: lo (Software Loopback Interface 1, 127.0.0.1)
+2020-09-19 18:34:50,194 [DEBUG ] NetUtil - Failed to get SOMAXCONN from sysctl and file \proc\sys\net\core\somaxconn. Default: 200
+2020-09-19 18:34:50,832 [DEBUG ] DefaultChannelId - -Dio.netty.machineId: dc:a2:66:ff:fe:40:f2:53 (auto-detected)
+2020-09-19 18:34:50,877 [DEBUG ] AbstractByteBuf - -Dio.netty.buffer.checkAccessible: true
+2020-09-19 18:34:50,877 [DEBUG ] AbstractByteBuf - -Dio.netty.buffer.checkBounds: true
+2020-09-19 18:34:50,877 [DEBUG ] ResourceLeakDetectorFactory - Loaded default ResourceLeakDetector: io.netty.util.ResourceLeakDetector@442b026f
+2020-09-19 18:34:50,919 [DEBUG ] Recycler - -Dio.netty.recycler.maxCapacityPerThread: 4096
+2020-09-19 18:34:50,919 [DEBUG ] Recycler - -Dio.netty.recycler.maxSharedCapacityFactor: 2
+2020-09-19 18:34:50,919 [DEBUG ] Recycler - -Dio.netty.recycler.linkCapacity: 16
+2020-09-19 18:34:50,919 [DEBUG ] Recycler - -Dio.netty.recycler.ratio: 8
+2020-09-19 18:34:58,212 [INFO  ] BasePage - Trying to open url https://testautomasi.com/wp-admin
+2020-09-19 18:35:04,715 [INFO  ] BasePage - successfull in opening the url
+2020-09-19 18:35:04,752 [INFO  ] BasePage - Trying to click on By.xpath: //a[contains(text(),'Log In')]
+]]></system-out>
+    <system-err><![CDATA[SLF4J: Failed to load class "org.slf4j.impl.StaticLoggerBinder".
+SLF4J: Defaulting to no-operation (NOP) logger implementation
+SLF4J: See http://www.slf4j.org/codes.html#StaticLoggerBinder for further details.
+Sep 19, 2020 6:34:52 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+]]></system-err>
+  </testcase>
+  <testcase name="setUpAndInitialize" classname="com.fullstack.batch3.AppTest" time="112.587">
+    <failure message="Could not start a new session. Possible causes are invalid address of the remote server or browser start-up failure.&#10;Build info: version: &apos;4.0.0-alpha-6&apos;, revision: &apos;5f43a29cfc&apos;&#10;System info: host: &apos;DESKTOP-3HP5LFB&apos;, ip: &apos;172.17.16.1&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_251&apos;&#10;Driver info: driver.version: RemoteWebDriver" type="org.openqa.selenium.remote.UnreachableBrowserException">org.openqa.selenium.remote.UnreachableBrowserException: 
+Could not start a new session. Possible causes are invalid address of the remote server or browser start-up failure.
+Build info: version: '4.0.0-alpha-6', revision: '5f43a29cfc'
+System info: host: 'DESKTOP-3HP5LFB', ip: '172.17.16.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_251'
+Driver info: driver.version: RemoteWebDriver
+Caused by: java.lang.RuntimeException: NettyHttpHandler request execution error
+Caused by: java.util.concurrent.ExecutionException: java.util.concurrent.TimeoutException: Request timeout to 54.179.170.44/54.179.170.44:4444 after 60000 ms
+Caused by: java.util.concurrent.TimeoutException: Request timeout to 54.179.170.44/54.179.170.44:4444 after 60000 ms
+</failure>
+  </testcase>
+  <testcase name="setUpAndInitialize" classname="com.fullstack.batch3.AppTest" time="129.189">
+    <failure message="Could not start a new session. Possible causes are invalid address of the remote server or browser start-up failure.&#10;Build info: version: &apos;4.0.0-alpha-6&apos;, revision: &apos;5f43a29cfc&apos;&#10;System info: host: &apos;DESKTOP-3HP5LFB&apos;, ip: &apos;172.17.16.1&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_251&apos;&#10;Driver info: driver.version: RemoteWebDriver" type="org.openqa.selenium.remote.UnreachableBrowserException">org.openqa.selenium.remote.UnreachableBrowserException: 
+Could not start a new session. Possible causes are invalid address of the remote server or browser start-up failure.
+Build info: version: '4.0.0-alpha-6', revision: '5f43a29cfc'
+System info: host: 'DESKTOP-3HP5LFB', ip: '172.17.16.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_251'
+Driver info: driver.version: RemoteWebDriver
+Caused by: java.lang.RuntimeException: NettyHttpHandler request execution error
+Caused by: java.util.concurrent.ExecutionException: java.util.concurrent.TimeoutException: Request timeout to 54.179.170.44/54.179.170.44:4444 after 60000 ms
+Caused by: java.util.concurrent.TimeoutException: Request timeout to 54.179.170.44/54.179.170.44:4444 after 60000 ms
+</failure>
+    <system-err><![CDATA[java.lang.NullPointerException
+	at com.fullstack.batch3.BaseWebTest.closeDriver(BaseWebTest.java:134)
+	at com.fullstack.batch3.BaseWebTest.cleanUpActivities(BaseWebTest.java:127)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+	at org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:59)
+	at org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:458)
+	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:222)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:536)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+]]></system-err>
+  </testcase>
+  <testcase name="setUpAndInitialize" classname="com.fullstack.batch3.AppTest" time="173.686">
+    <failure message="Could not start a new session. Possible causes are invalid address of the remote server or browser start-up failure.&#10;Build info: version: &apos;4.0.0-alpha-6&apos;, revision: &apos;5f43a29cfc&apos;&#10;System info: host: &apos;DESKTOP-3HP5LFB&apos;, ip: &apos;172.17.16.1&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_251&apos;&#10;Driver info: driver.version: RemoteWebDriver" type="org.openqa.selenium.remote.UnreachableBrowserException">org.openqa.selenium.remote.UnreachableBrowserException: 
+Could not start a new session. Possible causes are invalid address of the remote server or browser start-up failure.
+Build info: version: '4.0.0-alpha-6', revision: '5f43a29cfc'
+System info: host: 'DESKTOP-3HP5LFB', ip: '172.17.16.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_251'
+Driver info: driver.version: RemoteWebDriver
+Caused by: java.lang.RuntimeException: NettyHttpHandler request execution error
+Caused by: java.util.concurrent.ExecutionException: java.util.concurrent.TimeoutException: Request timeout to 54.179.170.44/54.179.170.44:4444 after 60000 ms
+Caused by: java.util.concurrent.TimeoutException: Request timeout to 54.179.170.44/54.179.170.44:4444 after 60000 ms
+</failure>
+  </testcase>
+  <testcase name="testJavaScript" classname="com.fullstack.batch3.AppTest" time="0">
+    <skipped message="Could not start a new session. Possible causes are invalid address of the remote server or browser start-up failure.&#10;Build info: version: &apos;4.0.0-alpha-6&apos;, revision: &apos;5f43a29cfc&apos;&#10;System info: host: &apos;DESKTOP-3HP5LFB&apos;, ip: &apos;172.17.16.1&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_251&apos;&#10;Driver info: driver.version: RemoteWebDriver"/>
+  </testcase>
+  <testcase name="loginWithCorrectCredentials" classname="com.fullstack.batch3.AppTest" time="66.785">
+    <failure message="Expected condition failed: waiting for element to be clickable: By.xpath: //a[contains(text(),&apos;Log In&apos;)] (tried for 60 second(s) with 500 milliseconds interval)" type="org.openqa.selenium.TimeoutException">org.openqa.selenium.TimeoutException: Expected condition failed: waiting for element to be clickable: By.xpath: //a[contains(text(),'Log In')] (tried for 60 second(s) with 500 milliseconds interval)
+Caused by: org.openqa.selenium.NoSuchElementException: 
+no such element: Unable to locate element: {"method":"xpath","selector":"//a[contains(text(),'Log In')]"}
+  (Session info: headless chrome=85.0.4183.83)
+For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
+Build info: version: '4.0.0-alpha-6', revision: '5f43a29cfc'
+System info: host: 'DESKTOP-3HP5LFB', ip: '172.17.16.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_251'
+Driver info: org.openqa.selenium.remote.RemoteWebDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 85.0.4183.83, chrome: {chromedriverVersion: 85.0.4183.83 (94abc2237ae0c..., userDataDir: /tmp/.com.google.Chrome.oXyBUD}, goog:chromeOptions: {debuggerAddress: localhost:43099}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: LINUX, platformName: LINUX, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true, webdriver.remote.sessionid: 1c8d06a8d1ce8260f3ea23d2755...}
+Session ID: 1c8d06a8d1ce8260f3ea23d2755409de
+*** Element info: {Using=xpath, value=//a[contains(text(),'Log In')]}
+</failure>
+    <system-err><![CDATA[java.lang.NullPointerException
+	at com.fullstack.batch3.BaseWebTest.closeDriver(BaseWebTest.java:134)
+	at com.fullstack.batch3.BaseWebTest.cleanUpActivities(BaseWebTest.java:127)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+	at org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:59)
+	at org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:458)
+	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:222)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:536)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+]]></system-err>
+  </testcase>
+  <testcase name="testNavigation" classname="com.fullstack.batch3.AppTest" time="0">
+    <skipped message="Could not start a new session. Possible causes are invalid address of the remote server or browser start-up failure.&#10;Build info: version: &apos;4.0.0-alpha-6&apos;, revision: &apos;5f43a29cfc&apos;&#10;System info: host: &apos;DESKTOP-3HP5LFB&apos;, ip: &apos;172.17.16.1&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_251&apos;&#10;Driver info: driver.version: RemoteWebDriver"/>
+  </testcase>
+  <testcase name="testSwitches" classname="com.fullstack.batch3.AppTest" time="0">
+    <skipped message="Could not start a new session. Possible causes are invalid address of the remote server or browser start-up failure.&#10;Build info: version: &apos;4.0.0-alpha-6&apos;, revision: &apos;5f43a29cfc&apos;&#10;System info: host: &apos;DESKTOP-3HP5LFB&apos;, ip: &apos;172.17.16.1&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_251&apos;&#10;Driver info: driver.version: RemoteWebDriver"/>
+  </testcase>
+  <testcase name="verifyTitle" classname="com.fullstack.batch3.AppTest" time="0">
+    <skipped message="Could not start a new session. Possible causes are invalid address of the remote server or browser start-up failure.&#10;Build info: version: &apos;4.0.0-alpha-6&apos;, revision: &apos;5f43a29cfc&apos;&#10;System info: host: &apos;DESKTOP-3HP5LFB&apos;, ip: &apos;172.17.16.1&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_251&apos;&#10;Driver info: driver.version: RemoteWebDriver"/>
+  </testcase>
+</testsuite>

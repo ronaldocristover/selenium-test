@@ -1,0 +1,7 @@
+#surefire_0
+#Sat Sep 19 18:34:41 ICT 2020
+environment=prod
+user.dir=E\:\\Telkom\\Training\\QA Automation Jakarta Labs 092020\\Training QA JakartaLabs Level 2\\Level 2 Resources\\Level 2 Resources\\batch3latest
+suiteXmlFile=webtests.xml
+localRepository=C\:\\Users\\ronaldo\\.m2\\repository
+basedir=E\:\\Telkom\\Training\\QA Automation Jakarta Labs 092020\\Training QA JakartaLabs Level 2\\Level 2 Resources\\Level 2 Resources\\batch3latest

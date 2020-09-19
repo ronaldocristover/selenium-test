@@ -1,0 +1,57 @@
+-------------------------------------------------------------------------------
+Test set: TestSuite
+-------------------------------------------------------------------------------
+Tests run: 9, Failures: 5, Errors: 0, Skipped: 4, Time elapsed: 190.009 sec <<< FAILURE! - in TestSuite
+setUpAndInitialize(com.fullstack.batch3.AppTest)  Time elapsed: 51.503 sec  <<< FAILURE!
+org.openqa.selenium.remote.UnreachableBrowserException: 
+Could not start a new session. Possible causes are invalid address of the remote server or browser start-up failure.
+Build info: version: '4.0.0-alpha-6', revision: '5f43a29cfc'
+System info: host: 'DESKTOP-3HP5LFB', ip: '172.17.16.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_251'
+Driver info: driver.version: RemoteWebDriver
+Caused by: java.lang.RuntimeException: NettyHttpHandler request execution error
+Caused by: java.util.concurrent.ExecutionException: java.util.concurrent.TimeoutException: Request timeout to 54.179.170.44/54.179.170.44:4444 after 60000 ms
+Caused by: java.util.concurrent.TimeoutException: Request timeout to 54.179.170.44/54.179.170.44:4444 after 60000 ms
+
+loginWithCorrectCredentials(com.fullstack.batch3.AppTest)  Time elapsed: 66.785 sec  <<< FAILURE!
+org.openqa.selenium.TimeoutException: Expected condition failed: waiting for element to be clickable: By.xpath: //a[contains(text(),'Log In')] (tried for 60 second(s) with 500 milliseconds interval)
+Caused by: org.openqa.selenium.NoSuchElementException: 
+no such element: Unable to locate element: {"method":"xpath","selector":"//a[contains(text(),'Log In')]"}
+  (Session info: headless chrome=85.0.4183.83)
+For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
+Build info: version: '4.0.0-alpha-6', revision: '5f43a29cfc'
+System info: host: 'DESKTOP-3HP5LFB', ip: '172.17.16.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_251'
+Driver info: org.openqa.selenium.remote.RemoteWebDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 85.0.4183.83, chrome: {chromedriverVersion: 85.0.4183.83 (94abc2237ae0c..., userDataDir: /tmp/.com.google.Chrome.oXyBUD}, goog:chromeOptions: {debuggerAddress: localhost:43099}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: LINUX, platformName: LINUX, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true, webdriver.remote.sessionid: 1c8d06a8d1ce8260f3ea23d2755...}
+Session ID: 1c8d06a8d1ce8260f3ea23d2755409de
+*** Element info: {Using=xpath, value=//a[contains(text(),'Log In')]}
+
+setUpAndInitialize(com.fullstack.batch3.AppTest)  Time elapsed: 112.587 sec  <<< FAILURE!
+org.openqa.selenium.remote.UnreachableBrowserException: 
+Could not start a new session. Possible causes are invalid address of the remote server or browser start-up failure.
+Build info: version: '4.0.0-alpha-6', revision: '5f43a29cfc'
+System info: host: 'DESKTOP-3HP5LFB', ip: '172.17.16.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_251'
+Driver info: driver.version: RemoteWebDriver
+Caused by: java.lang.RuntimeException: NettyHttpHandler request execution error
+Caused by: java.util.concurrent.ExecutionException: java.util.concurrent.TimeoutException: Request timeout to 54.179.170.44/54.179.170.44:4444 after 60000 ms
+Caused by: java.util.concurrent.TimeoutException: Request timeout to 54.179.170.44/54.179.170.44:4444 after 60000 ms
+
+setUpAndInitialize(com.fullstack.batch3.AppTest)  Time elapsed: 129.189 sec  <<< FAILURE!
+org.openqa.selenium.remote.UnreachableBrowserException: 
+Could not start a new session. Possible causes are invalid address of the remote server or browser start-up failure.
+Build info: version: '4.0.0-alpha-6', revision: '5f43a29cfc'
+System info: host: 'DESKTOP-3HP5LFB', ip: '172.17.16.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_251'
+Driver info: driver.version: RemoteWebDriver
+Caused by: java.lang.RuntimeException: NettyHttpHandler request execution error
+Caused by: java.util.concurrent.ExecutionException: java.util.concurrent.TimeoutException: Request timeout to 54.179.170.44/54.179.170.44:4444 after 60000 ms
+Caused by: java.util.concurrent.TimeoutException: Request timeout to 54.179.170.44/54.179.170.44:4444 after 60000 ms
+
+setUpAndInitialize(com.fullstack.batch3.AppTest)  Time elapsed: 173.686 sec  <<< FAILURE!
+org.openqa.selenium.remote.UnreachableBrowserException: 
+Could not start a new session. Possible causes are invalid address of the remote server or browser start-up failure.
+Build info: version: '4.0.0-alpha-6', revision: '5f43a29cfc'
+System info: host: 'DESKTOP-3HP5LFB', ip: '172.17.16.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_251'
+Driver info: driver.version: RemoteWebDriver
+Caused by: java.lang.RuntimeException: NettyHttpHandler request execution error
+Caused by: java.util.concurrent.ExecutionException: java.util.concurrent.TimeoutException: Request timeout to 54.179.170.44/54.179.170.44:4444 after 60000 ms
+Caused by: java.util.concurrent.TimeoutException: Request timeout to 54.179.170.44/54.179.170.44:4444 after 60000 ms
+
